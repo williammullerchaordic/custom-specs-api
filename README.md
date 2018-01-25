@@ -4,6 +4,7 @@ Implementation component custom-specs-api from onsite-js
 # Default Structure necessary from work correctly of component Constructor custom spec
 
  values to config:
+ 
 	scope: {}, -- mandatory --
 	productView: {}, -- mandatory --
 	jqItem: {}, -- mandatory --
@@ -21,6 +22,7 @@ Implementation component custom-specs-api from onsite-js
 	}
 
 Object created in theme.js inside callback defaultAfterDrawProduct:
+
 	productView.availableSpecs = {
 		"Color": {
 			"BLANCO": {
