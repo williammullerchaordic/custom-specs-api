@@ -1,7 +1,7 @@
 # custom-specs-api
-Implementation component custom-specs-api from onsite-js
+# Implementation component custom-specs-api from onsite-js
 
-# Default Structure necessary from work correctly of component Constructor custom spec
+Default Structure necessary from work correctly of component Constructor custom spec
 
  values to config:
  
