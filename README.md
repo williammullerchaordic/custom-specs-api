@@ -3,7 +3,7 @@ Implementation component custom-specs-api from onsite-js
 
 # Default Structure necessary from work correctly of component Constructor custom spec
 
- values to config:
+ # values to config:
 	scope: {}, -- mandatory --
 	productView: {}, -- mandatory --
 	jqItem: {}, -- mandatory --
@@ -20,7 +20,7 @@ Implementation component custom-specs-api from onsite-js
 		title: true
 	}
 
-Object created in theme.js insight
+# Object created in theme.js insight:
 	productView.availableSpecs = {
 		"Color": {
 			"BLANCO": {
