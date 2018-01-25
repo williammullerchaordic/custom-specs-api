@@ -5,11 +5,11 @@ Default Structure necessary from work correctly of component Constructor custom 
 
  values to config:
  
-	scope: {}, -- mandatory --
-	productView: {}, -- mandatory --
-	jqItem: {}, -- mandatory --
-	visibleElements: -1, -- optional --
-	-- All extras is optional -- 
+ 	scope: {}, -- mandatory --
+		productView: {}, -- mandatory --
+		jqItem: {}, -- mandatory --
+		visibleElements: -1, -- optional --
+	-- All extras is optional --
 	extras: {
 		visibleElements: -1,
 		itemsPerMove: 1,
