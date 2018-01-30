@@ -1,0 +1,68 @@
+/*style to new custom specs*/
+.custom-specs{
+    $arrow-spec-size: 12px;
+
+    .spec-container {
+        padding-left: $arrow-spec-size;
+    }
+
+    .custom-spec-container{
+        position: relative;
+    }
+
+    .spec-arrow{
+        cursor: pointer;
+        width: $arrow-spec-size;
+        height: $arrow-spec-size;
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        position: absolute;
+        top: 40%;
+
+        &.spec-prev {
+            border-bottom: 1px solid #333;
+            border-left: 1px solid #333;
+            left: 0;
+        }
+        &.spec-next {
+            border-top: 1px solid #333;
+            border-right: 1px solid #333;
+            right: 0;
+        }
+
+        &.spec-prev.disabled, &.spec-next.disabled{
+            border-color:#c7c2c2;
+            cursor:not-allowed;
+        }
+    }
+    .spec-carousel{
+        width: 90%;
+        height: 32px;
+        overflow: hidden;
+    }
+    .item-spec{
+        width: 30px;
+        height: 30px;
+        float: left;
+        &.unavailable{
+            cursor: not-allowed;
+            pointer-events: none;
+            opacity: 0.4;
+        }
+        .spec-link{
+            cursor: pointer;
+            div{
+                box-shadow: 0 0 1px 1px #FF0000;
+            }
+        }
+        &.active {
+            .spec-link{
+                div{
+                    box-shadow: 0 0 1px 1px #0099cc;
+                }
+            }
+        }
+    }
+}
